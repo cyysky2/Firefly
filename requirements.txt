@@ -14,7 +14,7 @@ tiktoken
 einops
 httpx
 scipy
-torch==2.0
+torch==2.0.0
 mmengine
 astunparse==1.6.2
 flash_attn
