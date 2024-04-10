@@ -14,9 +14,8 @@ tiktoken
 einops
 httpx
 scipy
-torch==1.13.1
+torch==2.0
 mmengine
-xformers
 astunparse==1.6.2
 flash_attn
 datasets
