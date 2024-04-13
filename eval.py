@@ -35,7 +35,7 @@ def main():
     DISCLLM_response = read_json_file('zh_law_test_t35_tp09.json')
     
     # Initialize the OpenAI API (ensure your API key is correctly configured)
-    openai.api_key = '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'
+    openai.api_key = ''
     
     # Collect results and judgments
     results = []
