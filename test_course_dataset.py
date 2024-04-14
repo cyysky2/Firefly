@@ -127,7 +127,7 @@ def main():
         assert len(stop_token_id) == 1
         stop_token_id = stop_token_id[0]
 
-    test_data_path = 'zh_law.json'
+    test_data_path = 'test questions.json'
     output_data_path = 'zh_law_test_t5_tp09.json'
     output_data = []
 
