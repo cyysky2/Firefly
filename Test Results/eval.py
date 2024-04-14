@@ -31,8 +31,8 @@ def main():
     BC213BBase_response = read_json_file('BC2-13B-Base-temperature100-top_p090 test results.json')
     trained_BC213BBase_response = read_json_file('DISC-Trained-BC2-13B-Base-temperature050-top_p090 test results.json')
     BC213BChat_response = read_json_file('BC2-13B-Chat-temperature100-top_p090 test results.json')
-    trained_BC213BChat_response = read_json_file('zh_law_test_t35_tp09.json')
-    DISCLLM_response = read_json_file('zh_law_test_t35_tp09.json')
+    trained_BC213BChat_response = read_json_file('DISC-Trained-BC2-13B-Chat-temperature045-top_p090 test results.json')
+    DISCLLM_response = read_json_file('DISCLawLLM-temperature090-top_p090 test results.json')
     
     # Initialize the OpenAI API (ensure your API key is correctly configured)
     openai.api_key = ''
